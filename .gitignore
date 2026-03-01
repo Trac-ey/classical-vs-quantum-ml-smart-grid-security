@@ -1,0 +1,7 @@
+venv/
+*.npy
+Edge-IIoTset dataset/
+*.pdf
+__pycache__/
+*.pyc
+.env
