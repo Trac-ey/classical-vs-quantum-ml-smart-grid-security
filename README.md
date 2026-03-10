@@ -6,8 +6,6 @@ learning (QML) models for detecting cyberattacks in US smart grid systems. The c
 question: Can QML achieve faster and more accurate malicious activity detection than 
 classical ML?
 
-This is a collaborative research project at Dakota State University.
-
 ## Research Question
 Can Quantum Machine Learning (QML) outperform Classical ML in detecting cyberattacks 
 vs. legitimate activity in smart grids in terms of accuracy, precision, and speed?
@@ -21,22 +19,21 @@ vs. legitimate activity in smart grids in terms of accuracy, precision, and spee
 
 ## Technologies Used
 - Python
-- PennyLane (quantum simulation)
+- qiskit (quantum simulation)
 - Scikit-learn (classical ML)
 - Jupyter Notebooks
 
 ## Evaluation Metrics
 - Accuracy
 - Precision
-- Detection Speed
-- Performance on imbalanced/adversarial data
+- Training/Testing Speed
 
 ## Project Structure
 classical-vs-quantum-ml-smart-grid-security/
-├── classical_ml/       # SVM code
-├── quantum_ml/         # QSVM and QNN simulations
-├── data/               # Dataset info (see data/README.md)
-├── results/            # Evaluation outputs
+├── classical_ml      # SVM code
+├── quantum_ml        # QSVM and QNN simulations
+├── data               # Dataset info (see data/README.md)
+├── results            # Evaluation outputs
 ├── requirements.txt
 └── README.md
 
@@ -50,8 +47,8 @@ python qsvm.py
 
 ## Researchers
 - **Tracey Osei Kwarteng** - Dataset collection and classical ML simulation
-- **Grace Fidele Dushime** - Quantum ML simulation and comparison
-- **Faculty Mentor:** Dakota State University
+- **Grace Fidele Dushime** - Quantum ML simulation
+- **Faculty Mentor:** Dr Mariam Gado
 
 ## Status
 In progress
